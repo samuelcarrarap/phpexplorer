@@ -131,7 +131,7 @@
 	            <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/500px-PHP-logo.svg.png" height="40" style="display: inline-table;" />
 	            &nbsp; &nbsp;	           
 	            <div class="input-group" style="width:75%;display:inline-table;margin:0;">
-		      		 <input class="form-control search" placeholder="Search Folder or Files"  onkeyup="search(this);" />
+		      		<input class="form-control search" placeholder="Search Folder or Files"  onkeyup="search(this);" autofocus="autofocus" />
 			      	<span class="input-group-btn">
 			        	<button class="btn btn-primary" type="button"
 			        	onclick="$('.search').val('');clear_search();">
