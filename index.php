@@ -59,7 +59,7 @@
 		@$_SESSION['theme'] = @$_GET['theme'];
 	}
 	$theme_index = (@$_SESSION['theme'] != '') ? $_SESSION['theme'] : 2;
-	$theme = 'https://bootswatch.com/'.$themes[$theme_index].'/bootstrap.min.css';
+	$theme = 'https://bootswatch.com/3/'.$themes[$theme_index].'/bootstrap.min.css';
 	// Gets all the files and directories inside current folder
 	$dirs = scandir('.'); 
 	// Removes backlink and index link
